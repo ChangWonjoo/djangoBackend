@@ -194,8 +194,12 @@ REST_FRAMEWORK = {
         "rest_framework.authentication.SessionAuthentication",
         "config.authentication.TrustMeBroAuthentication",
         "rest_framework.authentication.TokenAuthentication",
+<<<<<<< HEAD
         "config.authentication.JWTAuthentication",
     ],
+=======
+    ]
+>>>>>>> parent of 0557886 (15.5 JWT Decode)
 }
 
 if DEBUG:
